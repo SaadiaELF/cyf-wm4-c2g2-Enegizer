@@ -1,0 +1,21 @@
+/* Variables */
+:root {
+    --dark-grey: #2B2D42;
+    --light-grey: #8D99AE;
+    --lighter-grey: #EDF2F4;
+    --dark-red: #D90429;
+    --light-red: #EF233C;
+    --white: #FFF;
+    --black: #000;
+    --heading-font: 'Playfair Display', serif;
+    --body-font: 'Source Sans Pro', sans-serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--black);
+    font-family: var(--body-font);
+}
