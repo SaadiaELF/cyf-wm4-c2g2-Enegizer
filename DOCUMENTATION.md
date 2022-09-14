@@ -5,7 +5,7 @@
 - **Markdown language:** [markdown-cheat-sheet](https://www.markdownguide.org/cheat-sheet/)
 
 
-  ###Links for energizer project:
+  ### Links for energizer project:
 
 [CodeYourFuture logo](https://www.scottishrefugeecouncil.org.uk/wp-content/uploads/2019/10/Code-Your-Future.jpg)
 
