@@ -200,7 +200,13 @@ input:checked ~ .nav-1 ul li
 
 /*HEADER END*/
 
+/* HERO START */
 
+.hero {
+    background-image: url(pexels-karolina-grabowska-4498362.jpg);
+}
+
+/* HERO END */
 
 /*FOOTER START*/
 footer
