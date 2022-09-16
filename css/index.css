@@ -203,7 +203,46 @@ input:checked ~ .nav-1 ul li
 /* HERO START */
 
 .hero {
-    background-image: url(https://images.pexels.com/photos/4498362/pexels-photo-4498362.jpeg)
+    background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+    opacity: 0.6;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+.hero-text h1 {
+    color: var(--white);
+    font-family: var(--body-font);
+}
+
+#hero-text-getEnergized {
+    background-color: var(--dark-grey);
+}
+
+#hero-text-with {
+    background-color: var(--dark-grey);
+    margin-top: 3px;
+}
+
+#hero-text-CYF {
+    background-color: var(--dark-red);
+    margin-top: 3px;
+}
+
+.hero-btn {
+    text-align: center;
+    position: absolute;
 }
 
 /* HERO END */
