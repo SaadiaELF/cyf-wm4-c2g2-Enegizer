@@ -253,17 +253,27 @@ footer {
 
 
 .grid_items-3 {
-    display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    /* display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%; */
+    display: flex;
+    justify-content: center;
 }
 
 .grid_items-3>div {
-    padding: 3rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0.5rem;
+
 }
 
-.grid_items-3>div>a>img {
+/* .grid_items-3>div>a>img {
     width: 3rem;
+} */
+
+.grid_items-3 .f__icon {
+    color: var(--dark-grey);
+}
+
+.grid_items-3 .f__icon:hover {
+    color: var(--light-red);
 }
 
 .footer-c {
