@@ -198,8 +198,13 @@ input:checked~.nav-1 ul li {
 .t__card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+.t__card__img {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
 }
 
 .t__card__title {
