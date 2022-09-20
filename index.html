@@ -1,234 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link to css file -->
-    <link rel="stylesheet" href="css/index.css" />
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/ce0969a756.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>CYF Energiser</title>
-  </head>
-  <body>
-    <!-- <header class="header">
-      <div class="h__content">
-        <div class="h__brand">
-          <img class="h__img" src="img/cyf_brand.png" alt="cyf-img" />
-        </div>
-        <div class="dropdown">
-          <input type="checkbox" id="h__checkbox" class="h__checkbox" />
-          <label class="h__hamb" for="h__checkbox">
-            <div class="h__hamb-line__container">
-              <span class="h__bar1"></span>
-              <span class="h__bar2"></span>
-              <span class="h__bar3"></span>
-              <span class="h__bar4"></span>
-            </div>
-          </label>
-          <nav class="h__nav">
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">TEAM</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header> -->
 
-    <main>
-      <section class="section--hero">
-        <div class="hero__text">
-          <h1 id="hero-text-getEnergised">Get Energised</h1>
-          <h1 id="hero-text-with">with</h1>
-          <h1 id="hero-text-CYF">&lt;code&gt;YourFuture</h1>
-          <a href="./main.html"
-            ><button class="btn btn--primary">ENERGISE</button></a
-          >
-        </div>
-      </section>
-      <section class="section--about">
-        <h1 class="a__title">What is CodeYourFuture Energiser?</h1>
-        <br />
-        <p class="a__text">
-          CodeYourFuture Energiser is a resource created by CodeYourFuture
-          trainees for CodeYourFuture trainees.
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link to css file -->
+  <link rel="stylesheet" href="css/index.css" />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ce0969a756.js" crossorigin="anonymous"></script>
+  <title>CYF Energiser</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="h__img" src="img/cyf_brand.png" alt="cyf-img" />
+    <input type="checkbox" id="h__side-menu" />
+    <label class="h__hamb" for="h__side-menu">
+      <div class="h__hamb-line__container">
+        <span class="h__hamb-line"></span>
+        <span class="h__hamb-line"></span>
+        <span class="h__hamb-line"></span>
+        <span class="h__hamb-line"></span>
+      </div>
+    </label>
+    <nav class="h__nav">
+      <ul class="h__nav__menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#section--about">ABOUT</a></li>
+        <li><a href="#section--team">TEAM</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section--hero">
+      <div class="hero__text">
+        <h1 id="hero-text-getEnergised">Get Energised</h1>
+        <h1 id="hero-text-with">with</h1>
+        <h1 id="hero-text-CYF">&lt;code&gt;YourFuture</h1>
+        <a href="./main.html"><button class="btn btn--primary">ENERGISE</button></a>
+      </div>
+    </section>
+    <section class="section--about">
+      <h1 class="a__title">What is CodeYourFuture Energiser?</h1>
+      <br />
+      <p class="a__text">
+        CodeYourFuture Energiser is a resource created by CodeYourFuture
+        trainees for CodeYourFuture trainees.
         </br>
-          CodeYourFuture Energiser helps trainees develop healthy lifestyle
-          habits and increase their productivity by engaging in short,
-          energising stretching exercises before class.
+        CodeYourFuture Energiser helps trainees develop healthy lifestyle
+        habits and increase their productivity by engaging in short,
+        energising stretching exercises before class.
         </br>
-          The programme provides a variety of appropriate warm-up stretches
-          which will help educate trainees on the health and productivity
-          benefits of stretching, as well as encourage the development of
-          healthy lifestyle behaviours in daily life.
-        </p>
-      </section>
-      <section class="section--exercises">
-        <div class="e__card">
-          <img class="e__card__img" src="" alt="" />
-          <div class="e__card__text">
-            <h3 class="e__card__title">Warm Up exercises</h3>
-            <p>
-              It is well known that before you begin any workout you should warm
-              up and stretch your body - to avoid any injures during the
-              workout. At the end of this workout your body will be warmed up
-              and ready for any physical activity.
-            </p>
-          </div>
-        </div>
-
-        <div class="e__card">
-          <img class="e__card__img" src="" alt="" />
-          <div class="e__card__text">
-            <h3 class="e__card__title">Reverse Lunges</h3>
-            <p>
-              Reverse Lunges is a great exercise, involving your lower body
-              muscles. It works your Quadriceps and Hamstrings (legs) along with
-              the glutes (butt), leading to a more firm butt and leaner legs!
-            </p>
-          </div>
-          <a><button class="btn btn--primary">Energise</button></a>
-        </div>
-
-        <div class="e__card">
-          <img class="e__card__img" src="" alt="" />
-          <div class="e__card__text">
-            <h3 class="e__card__title">Jumping Jacks</h3>
-            <p>
-              Jumping Jacks is a great cardiovascular exercise which can be
-              performed as warm-up before a more intense training, or as part of
-              your workout routine if you're looking to lose weight and burn
-              some calories!
-            </p>
-          </div>
-          <a><button class="btn btn--primary">Energise</button></a>
-        </div>
-      </section>
-
-      <section class="section--team">
-        <h1 class="t__heading">Meet the team</h1>
-        <div class="t__container">
-          <div class="t__card">
-            <img class="t__card__img" src="./img/user.jpg" alt="" />
-            <h2 class="t__card__title">Alex Phillip</h2>
-            <div class="t__card__links">
-              <a
-                href="https://www.linkedin.com/in/alexander-phillip-832b5b239"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin fa-2x"></i
-              ></a>
-              <a href="https://github.com/Alex-Phillip" target="_blank"
-                ><i class="fa-brands fa-square-github fa-2x"></i
-              ></a>
-            </div>
-          </div>
-          <div class="t__card">
-            <img class="t__card__img" src="./img/user.jpg" alt="" />
-            <h2 class="t__card__title">Micheale Andemariam</h2>
-            <div class="t__card__links">
-              <a
-                href="https://www.linkedin.com/in/micheale-andemariam-826748229/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin fa-2x"></i
-              ></a>
-              <a href="https://github.com/micheale2021" target="_blank"
-                ><i class="fa-brands fa-square-github fa-2x"></i
-              ></a>
-            </div>
-          </div>
-          <div class="t__card">
-            <img class="t__card__img" src="./img/user.jpg" alt="" />
-            <h2 class="t__card__title">Kerim Zamir</h2>
-            <div class="t__card__links">
-              <a href="" target="_blank"
-                ><i class="fa-brands fa-linkedin fa-2x"></i
-              ></a>
-              <a href="https://github.com/Arbeits-Sachen" target="_blank"
-                ><i class="fa-brands fa-square-github fa-2x"></i
-              ></a>
-            </div>
-          </div>
-          <div class="t__card">
-            <img class="t__card__img" src="./img/user.jpg" alt="" />
-            <h2 class="t__card__title">Luna Mzelo</h2>
-            <div class="t__card__links">
-              <a
-                href="https://www.linkedin.com/in/luna-mzelo-072a94239/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin fa-2x"></i
-              ></a>
-              <a href="https://github.com/Lunamzelo" target="_blank"
-                ><i class="fa-brands fa-square-github fa-2x"></i
-              ></a>
-            </div>
-          </div>
-          <div class="t__card">
-            <img class="t__card__img" src="./img/user.jpg" alt="" />
-            <h2 class="t__card__title">Saadia El fekak</h2>
-            <div class="t__card__links">
-              <a
-                href="https://www.linkedin.com/in/saadia-el-fekak-5b138780/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin fa-2x"></i
-              ></a>
-              <a href="https://github.com/SaadiaELF" target="_blank"
-                ><i class="fa-brands fa-square-github fa-2x"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="f__links__container">
-        <div class="f__link">
-          <a href="https://www.instagram.com/codeyourfuture">
-            <i class="f__icon fa-brands fa-square-instagram fa-2x"></i>
-          </a>
-        </div>
-        <div class="f__link">
-          <a href="https://twitter.com/CodeYourFuture">
-            <i class="f__icon fa-brands fa-square-twitter fa-2x"></i>
-          </a>
-        </div>
-        <div class="f__link">
-          <a href="https://www.facebook.com/codeyourfuture.io">
-            <i class="f__icon fa-brands fa-square-facebook fa-2x"></i>
-          </a>
-        </div>
-        <div class="f__link">
-          <a href="https://www.linkedin.com/company/codeyourfuture/">
-            <i class="f__icon fa-brands fa-linkedin fa-2x"></i>
-          </a>
-        </div>
-        <div class="f__link">
-          <a href="https://github.com/CodeYourFuture">
-            <i class="f__icon fa-brands fa-square-github fa-2x"></i>
-          </a>
-        </div>
-        <div class="f__link">
-          <a
-            href="https://github.com/SaadiaELF/cyf-wm4-c2g2-Enegizer/blob/dev/westmidlands@codeyourfuture.io"
-          >
-            <i class="f__icon fa-solid fa-envelope fa-2x"></i>
-          </a>
+        The programme provides a variety of appropriate warm-up stretches
+        which will help educate trainees on the health and productivity
+        benefits of stretching, as well as encourage the development of
+        healthy lifestyle behaviours in daily life.
+      </p>
+    </section>
+    <section class="section--exercises">
+      <div class="e__card">
+        <img class="e__card__img" src="" alt="" />
+        <div class="e__card__text">
+          <h3 class="e__card__title">Warm Up exercises</h3>
+          <p>
+            It is well known that before you begin any workout you should warm
+            up and stretch your body - to avoid any injures during the
+            workout. At the end of this workout your body will be warmed up
+            and ready for any physical activity.
+          </p>
         </div>
       </div>
-      <div class="f__text">
-        <p>©All rights reserved | Registered UK and Scottish charity</p>
+
+      <div class="e__card">
+        <img class="e__card__img" src="" alt="" />
+        <div class="e__card__text">
+          <h3 class="e__card__title">Reverse Lunges</h3>
+          <p>
+            Reverse Lunges is a great exercise, involving your lower body
+            muscles. It works your Quadriceps and Hamstrings (legs) along with
+            the glutes (butt), leading to a more firm butt and leaner legs!
+          </p>
+        </div>
+        <a><button class="btn btn--primary">Energise</button></a>
       </div>
-    </footer>
-  </body>
+
+      <div class="e__card">
+        <img class="e__card__img" src="" alt="" />
+        <div class="e__card__text">
+          <h3 class="e__card__title">Jumping Jacks</h3>
+          <p>
+            Jumping Jacks is a great cardiovascular exercise which can be
+            performed as warm-up before a more intense training, or as part of
+            your workout routine if you're looking to lose weight and burn
+            some calories!
+          </p>
+        </div>
+        <a><button class="btn btn--primary">Energise</button></a>
+      </div>
+    </section>
+
+    <section class="section--team">
+      <h1 class="t__heading">Meet the team</h1>
+      <div class="t__container">
+        <div class="t__card">
+          <img class="t__card__img" src="./img/user.jpg" alt="" />
+          <h2 class="t__card__title">Alex Phillip</h2>
+          <div class="t__card__links">
+            <a href="https://www.linkedin.com/in/alexander-phillip-832b5b239" target="_blank"><i
+                class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/Alex-Phillip" target="_blank"><i
+                class="fa-brands fa-square-github fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="t__card">
+          <img class="t__card__img" src="./img/user.jpg" alt="" />
+          <h2 class="t__card__title">Micheale Andemariam</h2>
+          <div class="t__card__links">
+            <a href="https://www.linkedin.com/in/micheale-andemariam-826748229/" target="_blank"><i
+                class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/micheale2021" target="_blank"><i
+                class="fa-brands fa-square-github fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="t__card">
+          <img class="t__card__img" src="./img/user.jpg" alt="" />
+          <h2 class="t__card__title">Kerim Zamir</h2>
+          <div class="t__card__links">
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/Arbeits-Sachen" target="_blank"><i
+                class="fa-brands fa-square-github fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="t__card">
+          <img class="t__card__img" src="./img/user.jpg" alt="" />
+          <h2 class="t__card__title">Luna Mzelo</h2>
+          <div class="t__card__links">
+            <a href="https://www.linkedin.com/in/luna-mzelo-072a94239/" target="_blank"><i
+                class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/Lunamzelo" target="_blank"><i class="fa-brands fa-square-github fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="t__card">
+          <img class="t__card__img" src="./img/user.jpg" alt="" />
+          <h2 class="t__card__title">Saadia El fekak</h2>
+          <div class="t__card__links">
+            <a href="https://www.linkedin.com/in/saadia-el-fekak-5b138780/" target="_blank"><i
+                class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/SaadiaELF" target="_blank"><i class="fa-brands fa-square-github fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="f__links__container">
+      <div class="f__link">
+        <a href="https://www.instagram.com/codeyourfuture">
+          <i class="f__icon fa-brands fa-square-instagram fa-2x"></i>
+        </a>
+      </div>
+      <div class="f__link">
+        <a href="https://twitter.com/CodeYourFuture">
+          <i class="f__icon fa-brands fa-square-twitter fa-2x"></i>
+        </a>
+      </div>
+      <div class="f__link">
+        <a href="https://www.facebook.com/codeyourfuture.io">
+          <i class="f__icon fa-brands fa-square-facebook fa-2x"></i>
+        </a>
+      </div>
+      <div class="f__link">
+        <a href="https://www.linkedin.com/company/codeyourfuture/">
+          <i class="f__icon fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div class="f__link">
+        <a href="https://github.com/CodeYourFuture">
+          <i class="f__icon fa-brands fa-square-github fa-2x"></i>
+        </a>
+      </div>
+      <div class="f__link">
+        <a href="https://github.com/SaadiaELF/cyf-wm4-c2g2-Enegizer/blob/dev/westmidlands@codeyourfuture.io">
+          <i class="f__icon fa-solid fa-envelope fa-2x"></i>
+        </a>
+      </div>
+    </div>
+    <div class="f__text">
+      <p>©All rights reserved | Registered UK and Scottish charity</p>
+    </div>
+  </footer>
+</body>
+
 </html>
