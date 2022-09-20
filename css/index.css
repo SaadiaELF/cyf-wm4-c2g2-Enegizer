@@ -209,7 +209,7 @@ input:checked ~ .nav-1 ul li
     background-repeat: no-repeat;
     background-size: cover;
     height: 30em;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 .hero-text {
@@ -228,21 +228,37 @@ input:checked ~ .nav-1 ul li
 
 #hero-text-getEnergized {
     background-color: var(--dark-grey);
+    opacity: 0.65;
 }
 
 #hero-text-with {
     background-color: var(--dark-grey);
     margin-top: 3px;
+    opacity: 0.65;
 }
 
 #hero-text-CYF {
     background-color: var(--dark-red);
     margin-top: 3px;
+    opacity: 0.65;
 }
 
 .hero-btn {
     text-align: center;
     position: absolute;
+    font-size: 1em;
+    transform: translate(-50%, -50%);
+    color:  var(--white);
+    background-color: var(--dark-red);
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em;
+    top: 8em;
+}
+
+#hero-btn-id {
+    opacity: 1.5;
+
 }
 
 /* HERO END */
