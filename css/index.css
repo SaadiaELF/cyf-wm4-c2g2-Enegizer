@@ -226,7 +226,7 @@ input:checked ~ .nav-1 ul li
     font-family: var(--body-font);
 }
 
-#hero-text-getEnergized {
+#hero-text-getEnergised {
     background-color: var(--dark-grey);
     opacity: 0.65;
 }
