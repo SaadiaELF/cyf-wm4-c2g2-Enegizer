@@ -365,36 +365,31 @@ input:checked~.h__nav ul li {
 
 
 /*FOOTER START*/
-footer {
+.footer {
     background-color: var(--lighter-grey);
 }
 
-
-.grid_items-3 {
+.f__links__container {
     /* display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%; */
     display: flex;
     justify-content: center;
 }
 
-.grid_items-3>div {
+.f__link {
     padding: 1rem 0.5rem;
 
 }
 
-/* .grid_items-3>div>a>img {
-    width: 3rem;
-} */
-
-.grid_items-3 .f__icon {
+.f__icon {
     color: var(--dark-grey);
 }
 
-.grid_items-3 .f__icon:hover {
+.f__icon:hover {
     color: var(--light-red);
 }
 
-.footer-c {
+.f__text {
     text-align: center;
     padding-bottom: 1px;
 }
