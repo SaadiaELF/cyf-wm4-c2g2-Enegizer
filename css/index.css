@@ -202,6 +202,43 @@ input:checked ~ .nav-1 ul li
 
 
 
+
+/*exercises section start*/
+
+.exercises {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.containers {
+    border-width: 1em;
+    margin-bottom: 6em;
+    padding: 30px;
+
+
+
+}
+
+.media, h3, p{
+    padding: 10px;
+}
+
+
+.exercise_section_button{
+    
+    position: absolute;
+    right: 5px;
+    top:0.1em;
+}
+ 
+
+
+/*exercises section end */
+
+
+
 /*FOOTER START*/
 footer
 {
