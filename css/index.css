@@ -178,7 +178,7 @@ input:checked~.h__nav ul li {
 
 
 /* HERO START */
-.hero {
+.section--hero {
     background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
     position: relative;
     background-position: center;
@@ -241,58 +241,42 @@ input:checked~.h__nav ul li {
 
 
 /* ABOUT SECTION START */
-.about {
+.section--about {
     text-align: center;
     background-color: var(--light-grey);
     padding: 0 1rem;
 }
 
-.about h1 {
+.section--about h1 {
     font-family: var(--heading-font);
     font-size: 2em;
 }
 
-.about p {
+.section--about p {
     font-family: var(--body-font);
     line-height: 200%;
 }
 
 /* ABOUT SECTION END */
 
+/* EXERCISES SECTION START */
 
-
-
-/*exercises section start*/
-
-.exercises {
+.section--exercises {
     display: flex;
     flex-direction: column;
-
-
 }
 
-.containers {
+.e__card {
     border-width: 1em;
     margin-bottom: 6em;
     padding: 30px;
-
-
-
 }
 
-.media, h3, p {
+.e__card__img, h3, p {
     padding: 10px;
 }
 
-
-.exercise_section_button {
-
-    position: absolute;
-    right: 5px;
-    top: 0.1em;
-}
-
-/*exercises section end */
+/* EXERCISES SECTION END */
 
 /* START TEAM SECTION */
 .section--team {
