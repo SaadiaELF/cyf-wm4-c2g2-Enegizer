@@ -178,55 +178,6 @@ input:checked~.nav-1 ul li {
 
 /*HEADER END*/
 
-/* START TEAM SECTION */
-.section--team {
-    margin: 1rem;
-}
-
-.t__heading {
-    padding: 0.5rem;
-    font-family: var(--heading-font);
-    color: var(--dark-red);
-    text-align: center;
-}
-
-
-
-
-/*exercises section start*/
-
-.exercises {
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.containers {
-    border-width: 1em;
-    margin-bottom: 6em;
-    padding: 30px;
-
-
-
-}
-
-.media, h3, p {
-    padding: 10px;
-}
-
-
-.exercise_section_button {
-
-    position: absolute;
-    right: 5px;
-    top: 0.1em;
-}
-
-
-
-/*exercises section end */
-
 
 /* HERO START */
 .hero {
@@ -310,6 +261,52 @@ input:checked~.nav-1 ul li {
 
 /* ABOUT SECTION END */
 
+
+
+
+/*exercises section start*/
+
+.exercises {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.containers {
+    border-width: 1em;
+    margin-bottom: 6em;
+    padding: 30px;
+
+
+
+}
+
+.media, h3, p {
+    padding: 10px;
+}
+
+
+.exercise_section_button {
+
+    position: absolute;
+    right: 5px;
+    top: 0.1em;
+}
+
+/*exercises section end */
+
+/* START TEAM SECTION */
+.section--team {
+    margin: 1rem;
+}
+
+.t__heading {
+    padding: 0.5rem;
+    font-family: var(--heading-font);
+    color: var(--dark-red);
+    text-align: center;
+}
 
 .t__container {
     display: grid;
