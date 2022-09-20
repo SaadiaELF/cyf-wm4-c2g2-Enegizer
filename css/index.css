@@ -245,16 +245,16 @@ input:checked~.h__nav ul li {
 /* ABOUT SECTION START */
 .section--about {
     text-align: center;
-    background-color: var(--light-grey);
+    background-color: var(--lighter-grey);
     padding: 0 1rem;
 }
 
-.section--about h1 {
+.a__title {
     font-family: var(--heading-font);
     font-size: 2em;
 }
 
-.section--about p {
+.a__text {
     font-family: var(--body-font);
     line-height: 200%;
 }
