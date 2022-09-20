@@ -191,6 +191,43 @@ input:checked~.nav-1 ul li {
 }
 
 
+
+
+/*exercises section start*/
+
+.exercises {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.containers {
+    border-width: 1em;
+    margin-bottom: 6em;
+    padding: 30px;
+
+
+
+}
+
+.media, h3, p {
+    padding: 10px;
+}
+
+
+.exercise_section_button {
+
+    position: absolute;
+    right: 5px;
+    top: 0.1em;
+}
+
+
+
+/*exercises section end */
+
+
 /* HERO START */
 .hero {
     background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
@@ -238,7 +275,7 @@ input:checked~.nav-1 ul li {
     position: absolute;
     font-size: 1em;
     transform: translate(-50%, -50%);
-    color:  var(--white);
+    color: var(--white);
     background-color: var(--dark-red);
     border: none;
     border-radius: 5px;
@@ -250,6 +287,7 @@ input:checked~.nav-1 ul li {
     opacity: 1.5;
 
 }
+
 /* HERO END */
 
 
@@ -269,6 +307,7 @@ input:checked~.nav-1 ul li {
     font-family: var(--body-font);
     line-height: 200%;
 }
+
 /* ABOUT SECTION END */
 
 
