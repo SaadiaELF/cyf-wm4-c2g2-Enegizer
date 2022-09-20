@@ -200,8 +200,8 @@ input:checked ~ .nav-1 ul li
 
 /*HEADER END*/
 
-/* HERO START */
 
+/* HERO START */
 .hero {
     background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
     position: relative;
@@ -260,8 +260,27 @@ input:checked ~ .nav-1 ul li
     opacity: 1.5;
 
 }
-
 /* HERO END */
+
+
+/* ABOUT SECTION START */
+.about {
+    text-align: center;
+    background-color: var(--light-grey);
+    padding: 0 1rem;
+}
+
+.about h1 {
+    font-family: var(--heading-font);
+    font-size: 2em;
+}
+
+.about p {
+    font-family: var(--body-font);
+    line-height: 200%;
+}
+/* ABOUT SECTION END */
+
 
 /*FOOTER START*/
 footer
