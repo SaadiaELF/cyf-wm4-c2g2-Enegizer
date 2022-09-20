@@ -1,7 +1,7 @@
 # cyf-wm4-c2g2-Enegizer
 
 ## What is CodeyourFuture Energiser
-CodeYourFuture energiser is an application/website created by CYF trainees, and the purpose is to add 10-15 minutes stretch exercises before class to address CYF students’ participation in physical activity.
+CodeYourFuture energiser is an application/website created by CYF trainees, and the purpose is to add 10-15 minutes stretch exercises before class onto CYF syllabus to address CYF students’ participation in physical activity.
 
 Its’ main goals are to develop students' healthy lifestyle habits and increase students' productivity, the program will allow students to participate in a variety of appropriate warm-up stretches. Moreover, it will help develop and reinforce healthy lifestyle behaviours, and it will educate students on the health benefits of stretching. 
 
