@@ -20,8 +20,6 @@
     font-family: var(--body-font);
 }
 
-
-
 /*HEADER START*/
 .header {
     display: flex;
@@ -36,12 +34,12 @@
     height: 50px;
 }
 
-/*START HAMBURGER BUTTON*/
+/*START hamburgerURGER BUTTON*/
 #h__side-menu {
     display: none;
 }
 
-.h__hamb {
+.h__hamburger {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +48,7 @@
     margin: 20px;
 }
 
-.h__hamb-line__container {
+.h__bars__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,11 +57,11 @@
     z-index: 3;
 }
 
-.h__hamb-line__container:hover {
+.h__bars__container:hover {
     cursor: pointer;
 }
 
-.h__hamb-line {
+.h__bar {
     position: relative;
     display: block;
     height: 4px;
@@ -73,11 +71,11 @@
     background-color: var(--dark-grey);
 }
 
-.h__hamb-line:nth-child(1) {
+.h__bar:nth-child(1) {
     transform-origin: 0%;
 }
 
-.h__hamb-line:nth-child(4) {
+.h__bar:nth-child(4) {
     transform-origin: 0%;
 }
 
@@ -86,26 +84,26 @@
     transition-delay: 0s;
 }
 
-#h__side-menu:checked+.h__hamb>.h__hamb-line__container>.h__hamb-line:nth-child(1) {
+#h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(1) {
     transform: rotate(45deg);
     height: 3px;
     width: 42px;
 }
 
-#h__side-menu:checked+.h__hamb>.h__hamb-line__container>.h__hamb-line:nth-child(2) {
+#h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(2) {
     transform: rotate(-45deg);
     height: 3px;
     background-color: transparent;
 }
 
-#h__side-menu:checked+.h__hamb>.h__hamb-line__container>.h__hamb-line:nth-child(3) {
+#h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(3) {
     transform: rotate(45deg);
     height: 3px;
     background-color: transparent;
 
 }
 
-#h__side-menu:checked+.h__hamb>.h__hamb-line__container>.h__hamb-line:nth-child(4) {
+#h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(4) {
     transform: rotate(-45deg);
     height: 3px;
     width: 42px;
