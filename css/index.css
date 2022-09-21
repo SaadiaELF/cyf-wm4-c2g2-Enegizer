@@ -271,8 +271,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 1em;
-    border: 1px solid var(--light-grey);
+    border: 1px solid var(--lighter-grey);
     border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .e__card__img {
@@ -374,6 +375,7 @@ body {
     width: 100%;
     padding: 1rem;
     background-color: var(--lighter-grey);
+    box-shadow: 10px 10px 20px 10px rgb(0 0 0 / 0.2);
 }
 
 .f__links__container {
