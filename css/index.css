@@ -193,7 +193,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
+    background-image: url("../img/hero-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -321,10 +321,9 @@ body {
     justify-content: center;
     padding: 0.5rem;
     background-color: var(--lighter-grey);
-    border-right: 1px solid var(--light-grey);
-    border-bottom: 1px solid var(--light-grey);
+    border: 1px solid var(--lighter-grey);
     border-radius: 10px;
-    box-shadow: 2px 2px 4px 1px var(--light-grey);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .t__card:nth-child(4) {
