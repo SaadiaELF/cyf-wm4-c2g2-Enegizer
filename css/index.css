@@ -157,10 +157,7 @@
 
 /* BUTTONS */
 .btn {
-    /* position: absolute;
-    transform: translate(-50%, -50%);
-    top: 8em; */
-    padding: 0.3em;
+    padding: 0.5em 1em;
     font-size: 1em;
     text-align: center;
     border: none;
@@ -168,9 +165,14 @@
 }
 
 .btn--primary {
-    opacity: 1.5;
     color: var(--white);
     background-color: var(--dark-red);
+    border: 1px solid var(--dark-red);
+}
+
+.btn--primary:hover {
+    color: var(--dark-red);
+    background-color: var(--white);
 }
 
 /* MAIN */
@@ -182,6 +184,9 @@
 .section--hero {
     position: relative;
     height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
     background-position: center;
     background-repeat: no-repeat;
