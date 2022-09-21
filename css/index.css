@@ -25,13 +25,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    background-color: var(--white);
-    height: 15vh;
+    background-color: var(--lighter-grey);
+    height: 100px;
 }
 
 .h__img {
-    height: 50px;
+    height: 60px;
+    margin: 1rem;
 }
 
 /*START hamburgerURGER BUTTON*/
@@ -45,7 +47,7 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    margin: 20px;
+    margin: 1rem;
 }
 
 .h__bars__container {
@@ -53,7 +55,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 20px;
-    width: 42px;
+    width: 35px;
     z-index: 3;
 }
 
@@ -86,26 +88,26 @@
 
 #h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(1) {
     transform: rotate(45deg);
-    height: 3px;
+    height: 4px;
     width: 42px;
 }
 
 #h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(2) {
     transform: rotate(-45deg);
-    height: 3px;
+    height: 4px;
     background-color: transparent;
 }
 
 #h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(3) {
     transform: rotate(45deg);
-    height: 3px;
+    height: 4px;
     background-color: transparent;
 
 }
 
 #h__side-menu:checked+.h__hamburger>.h__bars__container>.h__bar:nth-child(4) {
     transform: rotate(-45deg);
-    height: 3px;
+    height: 4px;
     width: 42px;
 }
 
