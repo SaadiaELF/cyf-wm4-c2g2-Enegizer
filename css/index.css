@@ -173,14 +173,19 @@
     background-color: var(--dark-red);
 }
 
+/* MAIN */
+.main {
+    height: 100vh;
+}
+
 /* HERO START */
 .section--hero {
-    background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
     position: relative;
+    height: 30em;
+    background-image: url(../img/pexels-karolina-grabowska-4498362.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30em;
     opacity: 0.9;
 }
 
@@ -189,30 +194,31 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    padding: 2rem;
     font-size: 2em;
 }
 
 .hero__text h1 {
+    display: inline-block;
+    align-self: center;
+    width: fit-content;
+    padding: 0 1rem;
+    margin-top: 5px;
     color: var(--white);
     font-family: var(--body-font);
 }
 
-#hero-text-getEnergised {
+#hero-text-line1 {
     background-color: var(--dark-grey);
     opacity: 0.65;
 }
 
-#hero-text-with {
+#hero-text-line2 {
     background-color: var(--dark-grey);
-    margin-top: 3px;
     opacity: 0.65;
 }
 
-#hero-text-CYF {
+#hero-text-line3 {
     background-color: var(--dark-red);
     margin-top: 3px;
     opacity: 0.65;
