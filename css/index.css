@@ -41,7 +41,7 @@ body {
     margin: 1rem;
 }
 
-/*START hamburgerURGER BUTTON*/
+/*START HAMBURGER BUTTON*/
 #h__side-menu {
     display: none;
 }
@@ -158,6 +158,12 @@ body {
     text-decoration: none;
 }
 
+
+.h__nav-desktop
+{
+    visibility: hidden;
+    display: none;
+}
 /*HEADER END*/
 
 /* BUTTONS */
@@ -411,3 +417,38 @@ body {
 }
 
 /*FOOTER END*/
+
+
+@media (min-width: 540px)
+{
+    .h__nav__menu
+    {
+        display: none;
+    }
+    
+    .h__hamburger
+    {
+        display: none;
+    }
+
+    .h__nav-desktop
+    {
+        visibility: visible;
+        display: flex;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        list-style-type: none;
+        text-decoration: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .h__nav-desktop a
+    {
+        padding-right: 15%;
+        padding-left: 15%;
+        text-decoration: none;
+    }
+}
