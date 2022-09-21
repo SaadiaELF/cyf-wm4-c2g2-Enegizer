@@ -236,7 +236,7 @@
 .section--about {
     text-align: center;
     background-color: var(--lighter-grey);
-    padding: 0 1rem;
+    padding: 1rem;
 }
 
 .a__title {
@@ -246,7 +246,7 @@
 
 .a__text {
     font-family: var(--body-font);
-    line-height: 200%;
+    line-height: 1.5em;
 }
 
 /* ABOUT SECTION END */
