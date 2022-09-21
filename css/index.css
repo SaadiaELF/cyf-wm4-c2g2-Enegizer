@@ -254,18 +254,34 @@
 /* EXERCISES SECTION START */
 
 .section--exercises {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 1.5rem;
 }
 
 .e__card {
-    border-width: 1em;
-    margin-bottom: 6em;
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    border: 1px solid var(--light-grey);
+    border-radius: 10px;
 }
 
-.e__card__img, h3, p {
-    padding: 10px;
+.e__card__img {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+
+}
+
+.e__card__text, .e__card__title {
+    margin-bottom: 1rem;
+}
+
+.btn--right {
+    align-self: flex-end;
 }
 
 /* EXERCISES SECTION END */
