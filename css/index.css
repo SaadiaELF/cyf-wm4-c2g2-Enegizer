@@ -439,16 +439,14 @@ body {
         padding-left: 3rem;
         list-style-type: none;
         text-decoration: none;
-        justify-content: space-between;
         align-items: center;
-        width: 100%;
         height: 100px;
     }
     
     .h__nav-desktop a
     {
-        padding-right: 15%;
-        padding-left: 15%;
+        padding-right: 2rem;
+        padding-left: 2rem;
         text-decoration: none;
     }
 }
