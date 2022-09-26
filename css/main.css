@@ -181,8 +181,16 @@ body {
 }
 
 /*section exercise starts*/
-.e__card__text, .e__card__title {
-    margin-bottom: 1rem;
+.e__card {
+
+}
+iframe{
+    width: auto;
+    min-width: 500px;
+    height: 400px;
+}
+iframe, .e__card__text, .e__card__title {
+    margin: 1.4rem 1.4rem;
 }
 .startStopBtn {
     display: flex;
@@ -191,7 +199,7 @@ body {
 .pause, .start {
     font-size: 1.2em;
     padding: .5em 1em;
-    margin-left: .5em;
+    margin-right: .5em;
     border-radius: 5px;
     color: #ffffff;
 
@@ -203,6 +211,19 @@ body {
     background-color: #D90429;
 }
 
+@media screen and (min-width: 590px) {
+    /* iframe {
+        width: auto;
+        min-width: 592px;
+    } */
+    .e__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1050px;
+        margin: auto;
+    }
+  }
 
 /*FOOTER START*/
 .clear {
