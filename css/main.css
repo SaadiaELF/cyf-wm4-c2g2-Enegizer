@@ -180,6 +180,28 @@ body {
     background-color: var(--white);
 }
 
+/*section exercise starts*/
+.e__card__text, .e__card__title {
+    margin-bottom: 1rem;
+}
+.startStopBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+.pause, .start {
+    font-size: 1.2em;
+    padding: .5em 1em;
+    margin-left: .5em;
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+.pause {
+    background-color: #2B2D42;
+}
+.start {
+    background-color: #D90429;
+}
 
 
 /*FOOTER START*/
