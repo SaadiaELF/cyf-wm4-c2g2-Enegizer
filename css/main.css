@@ -14,6 +14,10 @@
     display: none;
 }
 
+.e__card__video {
+    border: 1px solid var(--light-grey);
+}
+
 .e__card__text, .e__card__title {
     margin-top: 1rem;
 }
@@ -30,21 +34,12 @@
     color: var(--dark-grey)
 }
 
-/* iframe {
-    width: auto;
-    height: 400px;
-}
-
-iframe, .e__card__text {
-    margin: 1.4rem 1.4rem;
-} */
-
 @media screen and (min-width: 590px) {
     .e__card {
         width: 50vw;
     }
 
-    iframe {
+    .e__card__video {
         height: 315px;
         width: auto;
     }
