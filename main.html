@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Link to css file -->
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/main.css" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,8 +14,14 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ce0969a756.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>CYF Energiser</title>
   </head>
+
   <body>
     <header class="header">
       <a href="https://codeyourfuture.io/"
@@ -32,32 +39,95 @@
       <nav class="h__nav">
         <ul class="h__nav__menu">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="#section--about">ABOUT</a></li>
-          <li><a href="#section--team">TEAM</a></li>
+          <li><a href="index.html#section--about">ABOUT</a></li>
+          <li><a href="index.html#section--team">TEAM</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="section--exercises">
-      <div class="e__card">
-        <iframe  src="https://www.youtube.com/embed/t69IPkfC4vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <main class="main">
+      <div class="e__card e__card--hidden">
+        <iframe
+          src="https://www.youtube.com/embed/t69IPkfC4vw"
+          title="Warm Up Exercises Before Workout [Stretching Pre Workout]"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <div class="e__card__text">
           <h3 class="e__card__title">Warm Up exercises</h3>
           <p>
             It is well known that before you begin any workout you should warm
-            up and stretch your body - to avoid any injures during the
-            workout. At the end of this workout your body will be warmed up
-            and ready for any physical activity.
+            up and stretch your body - to avoid any injures during the workout.
+            At the end of this workout your body will be warmed up and ready for
+            any physical activity.
           </p>
         </div>
-        <div class="startStopBtn">
-          <button class="pause">Pause</button>
-          <button class="start">Start</button>
+        <div class="btn--right">
+          <button class="btn btn--primary">Start</button>
+          <button class="btn btn--secondary">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button class="btn btn--secondary">
+            <i class="fa-solid fa-stop"></i>
+          </button>
         </div>
-
       </div>
-    </section>  
-
+      <div class="e__card e__card--hidden">
+        <iframe
+          src="https://www.youtube.com/embed/xrts0odDIJ4"
+          title="50 Reverse Lunges Challenge [Great Legs and Butt Exercise!]"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="e__card__text">
+          <h3 class="e__card__title">Reverse Lunges</h3>
+          <p>
+            Reverse Lunges is a great exercise, involving your lower body
+            muscles. It works your Quadriceps and Hamstrings (legs) along with
+            the glutes (butt), leading to a more firm butt and leaner legs!.
+          </p>
+        </div>
+        <div class="btn--right">
+          <button class="btn btn--primary">Start</button>
+          <button class="btn btn--secondary">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button class="btn btn--secondary">
+            <i class="fa-solid fa-stop"></i>
+          </button>
+        </div>
+      </div>
+      <div class="e__card e__card--hidden">
+        <iframe
+          src="https://www.youtube.com/embed/yDSMdd8hiFg"
+          title="100 Jumping Jacks Challenge [Cardio + Burn Calories + Lose Weight]"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="e__card__text">
+          <h3 class="e__card__title">Jumping Jacks</h3>
+          <p>
+            Jumping Jacks is a great cardiovascular exercise which can be
+            performed as warm-up before a more intense training, or as part of
+            your workout routine if you're looking to lose weight and burn some
+            calories!
+          </p>
+        </div>
+        <div class="btn--right">
+          <button class="btn btn--primary">Start</button>
+          <button class="btn btn--secondary">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button class="btn btn--secondary">
+            <i class="fa-solid fa-stop"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="clear"></div>
     <footer class="footer">
       <div class="f__links__container">
         <div class="f__link">
@@ -98,4 +168,5 @@
       </div>
     </footer>
   </body>
+  <script src="./js/index.js"></script>
 </html>
