@@ -142,7 +142,6 @@ body {
 }
 
 .h__nav__menu li {
-    opacity: 0;
     transition: .5s;
     transition-delay: 0s;
     margin: 30px;
@@ -421,3 +420,35 @@ body {
 }
 
 /*FOOTER END*/
+
+@media screen and (min-width:600px) {
+
+    /* Hamburger icon */
+    .h__hamburger {
+        display: none;
+    }
+
+    /* Navigation */
+    .h__nav {
+        position: sticky;
+        width: auto;
+        height: auto;
+        align-items: center;
+        overflow: initial;
+        max-height: none;
+        background-color: transparent;
+
+    }
+
+    .h__nav__menu {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+
+    .h__nav__menu li {
+        margin: 0 20px;
+    }
+
+
+}
