@@ -180,6 +180,17 @@ body {
     background-color: var(--white);
 }
 
+.btn--secondary {
+    color: var(--white);
+    background-color: var(--dark-grey);
+    border: 1px solid var(--dark-grey);
+}
+
+.btn--secondary:hover {
+    color: var(--dark-grey);
+    background-color: var(--white);
+}
+
 /* MAIN */
 /* .main {
     min-height: 100%;
