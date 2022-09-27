@@ -7,7 +7,7 @@
     --light-red: #EF233C;
     --white: #FFF;
     --black: #000;
-    --heading-font: 'Playfair Display', serif;
+    --heading-font: 'Oswald', sans-serif;
     --body-font: 'Source Sans Pro', sans-serif;
 }
 
@@ -33,7 +33,7 @@ body {
     align-items: center;
     width: 100%;
     background-color: var(--lighter-grey);
-    height: 100px;
+    height: 70px;
 }
 
 .h__img {
@@ -150,11 +150,18 @@ body {
 .h__nav__menu a {
     display: block;
     cursor: pointer;
+    padding: 0 1rem;
     font-family: var(--heading-font);
     font-weight: 600;
     font-size: 20px;
+    color: var(--dark-grey);
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.h__nav__menu a:hover {
+    color: var(--lighter-grey);
+    background-color: var(--dark-grey);
 }
 
 /*HEADER END*/
@@ -203,6 +210,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image: url("../img/hero-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -216,7 +224,7 @@ body {
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .hero__text h1 {
@@ -389,7 +397,7 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 1rem;
@@ -450,5 +458,9 @@ body {
         margin: 0 20px;
     }
 
+    /* Hero */
+    .hero__text {
+        font-size: 2em;
+    }
 
 }
