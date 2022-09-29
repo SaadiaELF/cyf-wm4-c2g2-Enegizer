@@ -1,9 +1,11 @@
 /*MAIN SECTION*/
 .main {
-    display: grid;
-    gap: 1em;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    flex-direction: column;
+    /* gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     margin: 1.5rem;
+    align-items: center;
 }
 
 .e__card {
@@ -33,6 +35,22 @@
 .fa-stop:hover {
     color: var(--dark-grey)
 }
+/* TIMER STYLING START*/
+
+.m__timer {
+    background-color: var( --dark-red); 
+    padding: 50px 100px;
+    border-radius: 10px;
+    border: rgb(84, 6, 6) solid 2px; 
+    color: var(--white);
+    font-size: 65px;
+    margin-top: 10px;
+    
+
+}
+
+
+/* TIMER STYLING END*/
 
 @media screen and (min-width: 590px) {
     .e__card {
