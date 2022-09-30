@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to css file -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ce0969a756.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>CYF Energiser</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="https://codeyourfuture.io/"
+        ><img class="h__img" src="img/cyf_brand.png" alt="cyf-img"
+      /></a>
+      <input type="checkbox" id="h__side-menu" />
+      <label class="h__hamburger" for="h__side-menu">
+        <div class="h__bars__container">
+          <span class="h__bar"></span>
+          <span class="h__bar"></span>
+          <span class="h__bar"></span>
+          <span class="h__bar"></span>
+        </div>
+      </label>
+      <nav class="h__nav">
+        <ul class="h__nav__menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html#section--about">ABOUT</a></li>
+          <li><a href="index.html#section--team">TEAM</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="e__card e__card--hidden">
+        <iframe
+          class="e__card__video"
+          src="https://www.youtube.com/embed/t69IPkfC4vw?enablejsapi=1&version=3&playerapiid=ytplayer"
+          title="Warm Up Exercises Before Workout [Stretching Pre Workout]"
+          modestbranding="0"
+          controls="0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="e__card__text">
+          <h3 class="e__card__title">Warm Up exercises</h3>
+          <p>
+            It is well known that before you begin any workout you should warm
+            up and stretch your body - to avoid any injures during the workout.
+            At the end of this workout your body will be warmed up and ready for
+            any physical activity.
+          </p>
+        </div>
+        <div class="btn--right">
+          <button class="btn btn--primary btn--play">Start</button>
+          <button class="btn btn--secondary btn--pause">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button class="btn btn--secondary btn--stop">
+            <i class="fa-solid fa-stop"></i>
+          </button>
+        </div>
+      </div>
+      <div class="e__card e__card--hidden">
+        <iframe
+          class="e__card__video"
+          src="https://www.youtube.com/embed/xrts0odDIJ4?enablejsapi=1&version=3&playerapiid=ytplayer"
+          title="50 Reverse Lunges Challenge [Great Legs and Butt Exercise!]"
+          modestbranding="0"
+          controls="0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="e__card__text">
+          <h3 class="e__card__title">Reverse Lunges</h3>
+          <p>
+            Reverse Lunges is a great exercise, involving your lower body
+            muscles. It works your Quadriceps and Hamstrings (legs) along with
+            the glutes (butt), leading to a more firm butt and leaner legs!.
+          </p>
+        </div>
+        <div class="btn--right">
+          <button class="btn btn--primary btn--play">Start</button>
+          <button class="btn btn--secondary">
+            <i class="fa-solid fa-pause btn--pause"></i>
+          </button>
+          <button class="btn btn--secondary btn--stop">
+            <i class="fa-solid fa-stop"></i>
+          </button>
+        </div>
+      </div>
+      <div class="e__card e__card--hidden">
+        <iframe
+          class="e__card__video"
+          src="https://www.youtube.com/embed/yDSMdd8hiFg?enablejsapi=1&version=3&playerapiid=ytplayer"
+          title="100 Jumping Jacks Challenge [Cardio + Burn Calories + Lose Weight]"
+          modestbranding="0"
+          controls="0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="e__card__text">
+          <h3 class="e__card__title">Jumping Jacks</h3>
+          <p>
+            Jumping Jacks is a great cardiovascular exercise which can be
+            performed as warm-up before a more intense training, or as part of
+            your workout routine if you're looking to lose weight and burn some
+            calories!
+          </p>
+        </div>
+        <div class="btn--right">
+          <button class="btn btn--primary btn--play">Start</button>
+          <button class="btn btn--secondary btn--pause">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button class="btn btn--secondary btn--stop">
+            <i class="fa-solid fa-stop"></i>
+          </button>
+        </div>
+      </div>
+      <div class="m__timer">
+        <p id="timer">00:00</p>
+      </div>
+    </main>
+    <div class="clear"></div>
+    <footer class="footer">
+      <div class="f__links__container">
+        <div class="f__link">
+          <a href="https://www.instagram.com/codeyourfuture">
+            <i class="f__icon fa-brands fa-square-instagram fa-2x"></i>
+          </a>
+        </div>
+        <div class="f__link">
+          <a href="https://twitter.com/CodeYourFuture">
+            <i class="f__icon fa-brands fa-square-twitter fa-2x"></i>
+          </a>
+        </div>
+        <div class="f__link">
+          <a href="https://www.facebook.com/codeyourfuture.io">
+            <i class="f__icon fa-brands fa-square-facebook fa-2x"></i>
+          </a>
+        </div>
+        <div class="f__link">
+          <a href="https://www.linkedin.com/company/codeyourfuture/">
+            <i class="f__icon fa-brands fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+        <div class="f__link">
+          <a href="https://github.com/CodeYourFuture">
+            <i class="f__icon fa-brands fa-square-github fa-2x"></i>
+          </a>
+        </div>
+        <div class="f__link">
+          <a
+            href="https://github.com/SaadiaELF/cyf-wm4-c2g2-Enegizer/blob/dev/westmidlands@codeyourfuture.io"
+          >
+            <i class="f__icon fa-solid fa-envelope fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="f__text">
+        <p>©All rights reserved | Registered UK and Scottish charity</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/index.js"></script>
+</html>

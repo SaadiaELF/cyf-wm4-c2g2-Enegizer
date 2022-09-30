@@ -1,0 +1,60 @@
+/*MAIN SECTION*/
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    align-items: center;
+}
+
+.e__card--hidden {
+    display: none;
+}
+
+.e__card__video {
+    border: 1px solid var(--light-grey);
+}
+
+.e__card__text, .e__card__title {
+    margin-top: 1rem;
+}
+
+.fa-pause, .fa-stop {
+    color: var(--white)
+}
+
+.fa-pause:hover {
+    color: var(--dark-grey)
+}
+
+.fa-stop:hover {
+    color: var(--dark-grey)
+}
+
+/* TIMER STYLING START*/
+
+.m__timer {
+    background-color: var(--dark-red);
+    padding: 50px 100px;
+    border: 1px solid var(--light-red);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-size: 65px;
+    margin: 2rem;
+}
+
+#timer {
+    color: var(--white);
+}
+
+/* TIMER STYLING END*/
+
+@media screen and (min-width: 590px) {
+    .e__card {
+        width: 50vw;
+    }
+
+    .e__card__video {
+        height: 315px;
+        width: auto;
+    }
+}
