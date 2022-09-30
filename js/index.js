@@ -7,7 +7,7 @@ let videos = document.querySelectorAll(".e__card__video");
 function hideMenu() {
   let menuOpen = document.querySelector("#h__side-menu").checked;
 
-  if ((menuOpen = true)) {
+  if ((menuOpen === true)) {
     document.querySelector("#h__side-menu").checked = false;
   }
 }
