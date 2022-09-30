@@ -65,7 +65,12 @@ function timer() {
 
     let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
+    if (seconds < 10) {
+      seconds = "0" + seconds;
+    }
+     if (minutes < 10) {
+       minutes = "0" + minutes;
+     }
     document.querySelector("#timer").innerHTML = `${minutes}:${seconds}`;
 
     if (timeLeft < 0) {
