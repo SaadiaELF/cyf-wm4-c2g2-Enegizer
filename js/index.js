@@ -7,7 +7,7 @@ let videos = document.querySelectorAll(".e__card__video");
 function hideMenu() {
   let menuOpen = document.querySelector("#h__side-menu").checked;
 
-  if ((menuOpen === true)) {
+  if (menuOpen === true) {
     document.querySelector("#h__side-menu").checked = false;
   }
 }
@@ -21,7 +21,7 @@ function videoControls() {
         '{"event":"command","func":"' + "playVideo" + '","args":""}',
         "*"
       );
-      timer();
+      playTimer();
     });
   }
 
@@ -32,6 +32,7 @@ function videoControls() {
         '{"event":"command","func":"' + "stopVideo" + '","args":""}',
         "*"
       );
+      resetTimer();
     });
   }
 
@@ -42,6 +43,7 @@ function videoControls() {
         '{"event":"command","func":"' + "pauseVideo" + '","args":""}',
         "*"
       );
+      pauseTimer();
     });
   }
 }
@@ -55,29 +57,39 @@ function getRandomCard() {
 }
 
 //  Timer
-let now = new Date().getTime();
-let countDownTime = new Date(now + 15 * 60 * 1000);
+let interval;
+let timeLeft = 15 * 60;
+let isPaused = true;
+let timer = setInterval(function () {
+  if (!isPaused) {
+    let minutes = Math.floor(timeLeft / 60);
+    let seconds = Math.floor(timeLeft % 60);
 
-function timer() {
-  setInterval(function () {
-    let currentTime = new Date().getTime();
-    let timeLeft = countDownTime - currentTime;
-
-    let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
     if (seconds < 10) {
       seconds = "0" + seconds;
     }
-     if (minutes < 10) {
-       minutes = "0" + minutes;
-     }
+    if (minutes < 10) {
+      minutes = "0" + minutes;
+    }
+
     document.querySelector("#timer").innerHTML = `${minutes}:${seconds}`;
 
     if (timeLeft < 0) {
-      clearInterval(timer);
-      document.querySelector("#timer").innerHTML = "00:00";
+      resetTimer();
     }
-  }, 1000);
+    timeLeft--;
+  }
+}, 1000);
+
+function playTimer() {
+  isPaused = false;
+}
+function pauseTimer() {
+  isPaused = true;
+}
+function resetTimer() {
+  clearInterval(timer);
+  document.querySelector("#timer").innerHTML = "00:00";
 }
 
 // Calling functions
