@@ -56,13 +56,12 @@ function getRandomCard() {
   exerciseCards[randomIndex].classList.remove("e__card--hidden");
 }
 
-//  Timer
-let interval;
-let timeLeft = 15 * 60;
+//  Timer functionalities 
+let timeLeft = 15 ;
 let isPaused = true;
 let timer = setInterval(function () {
   if (!isPaused) {
-    let minutes = Math.floor(timeLeft / 60);
+    let minutes = Math.floor(timeLeft);
     let seconds = Math.floor(timeLeft % 60);
 
     if (seconds < 10) {
@@ -84,15 +83,17 @@ let timer = setInterval(function () {
 function playTimer() {
   isPaused = false;
 }
+
 function pauseTimer() {
   isPaused = true;
 }
+
 function resetTimer() {
   clearInterval(timer);
   document.querySelector("#timer").innerHTML = "00:00";
 }
 
-// Calling functions
+// Calling functions & Events
 window.addEventListener("scroll", hideMenu);
 getRandomCard();
 videoControls();
