@@ -56,12 +56,12 @@ function getRandomCard() {
   exerciseCards[randomIndex].classList.remove("e__card--hidden");
 }
 
-//  Timer functionalities 
-let timeLeft = 15 ;
+//  Timer functionalities
+let timeLeft = 15 * 60;
 let isPaused = true;
 let timer = setInterval(function () {
   if (!isPaused) {
-    let minutes = Math.floor(timeLeft);
+    let minutes = Math.floor(timeLeft / 60);
     let seconds = Math.floor(timeLeft % 60);
 
     if (seconds < 10) {
